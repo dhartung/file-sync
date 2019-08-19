@@ -1,0 +1,6 @@
+{
+    "source": "C:\\Users\\Daniel\\Desktop\\One",
+    "destination": "C:\\Users\\Daniel\\Desktop\\Two",
+    "copy": ["nfo", "jpg"],
+    "symlink": ["mkv", "mp4", "avi", "flv"]
+}

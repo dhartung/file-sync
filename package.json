@@ -1,0 +1,25 @@
+{
+  "name": "file-sync",
+  "version": "1.0.0",
+  "description": "Short script which synchronizes two folders using symlinks and hard copies",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "slash": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhartung/file-sync.git"
+  },
+  "author": "dhartung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhartung/file-sync/issues"
+  },
+  "homepage": "https://github.com/dhartung/file-sync#readme",
+  "private": true
+}
