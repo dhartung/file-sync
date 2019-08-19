@@ -63,7 +63,19 @@ function getExtension(file) {
     return file.substr(pos + 1);
 }
 
-const config = require("./config.json");
+let configPath = "./config.json";
+if (process.argv.length > 2) {
+    const tmp = path.resolve(process.argv[2])
+    try {        
+        fs.accessSync(tmp);
+        configPath = tmp;
+    } catch (ex) {
+        console.error("Could not open: " + tmp);
+        return;
+    }
+}
+
+const config = require(configPath);
 async function main() {
     const pathLeft = path.resolve(config.source);
     const pathRight = path.resolve(config.destination);
