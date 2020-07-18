@@ -4,7 +4,7 @@
   "description": "Short script which synchronizes two folders using symlinks and hard copies",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "slash": "^3.0.0"
   },
   "devDependencies": {},
